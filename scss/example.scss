@@ -1,4 +1,4 @@
-$allpadding:10px;
+$allpadding:10px;//wrong code are you sleeping or what//
 body {
     font: 100% "Space Mono", monospace;
     color: #2748B3;
@@ -25,7 +25,7 @@ article section {
     flex-grow: 1;
     flex-basis: 45%;
     border: 1px silver solid;
-    @include allpadding;
+    @include allpadding;//wrong code are you sleeping or what//
    
     margin: 16px;
     clear: both;
@@ -39,7 +39,7 @@ article section#selling-points {
 }
 
 article code {
-    @include allpadding;
+    @include allpadding; //wrong code are you sleeping or what//
     background: #000;
     border: 1px solid #ddd;
     color: #666;
@@ -78,7 +78,7 @@ h1 {
 h6 {
     text-align: center;
     font-size: 2em;
-    @include allpadding;
+    @include allpadding;//wrong code are you sleeping or what//
     margin-bottom: 0px
 }
 
@@ -87,7 +87,7 @@ h6 {
 .error,
 .warning {
     border: 1px solid #ccc;
-    padding: $allpadding;
+    padding: $allpadding;//wrong code are you sleeping or what//
     color: #2748B3;
     background-color: #000;
     width: 100%
