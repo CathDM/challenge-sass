@@ -15,13 +15,14 @@ article {
     flex-wrap: wrap
 }
 
-@mixin box-shadow ($r) {
+@mixin box-shadow ($r:(10px 10px 19px -4px rgba(260, 260, 260, 0.75))) 
+{
     -webkit-box-shadow: $r;
     -moz-box-shadow: $r;
     box-shadow: $r;
 }
 article section {
-    @include box-shadow(10px 10px 19px -4px rgba(255, 255, 255, 0.75));
+    @include box-shadow;
     flex-grow: 1;
     flex-basis: 45%;
     border: 1px silver solid;
