@@ -1,4 +1,4 @@
-$allpadding : 8px;
+$allpadding:10px;
 body {
     font: 100% "Space Mono", monospace;
     color: #2748B3;
@@ -26,7 +26,7 @@ article section {
     flex-basis: 45%;
     border: 1px silver solid;
     
-    padding: 16px;
+    padding: $allpadding;
     margin: 16px;
     clear: both;
     overflow: auto;
