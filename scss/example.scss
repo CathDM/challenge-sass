@@ -25,8 +25,8 @@ article section {
     flex-grow: 1;
     flex-basis: 45%;
     border: 1px silver solid;
-    
-    padding: $allpadding;
+    @include allpadding;
+   
     margin: 16px;
     clear: both;
     overflow: auto;
@@ -39,6 +39,7 @@ article section#selling-points {
 }
 
 article code {
+    @include allpadding;
     background: #000;
     border: 1px solid #ddd;
     color: #666;
@@ -49,7 +50,7 @@ article code {
     margin-bottom: 1.6em;
     max-width: 100%;
     overflow: auto;
-    padding: $allpadding;
+    
     display: block;
     word-wrap: break-word
 }
@@ -77,7 +78,7 @@ h1 {
 h6 {
     text-align: center;
     font-size: 2em;
-    padding: $allpadding *2;
+    @include allpadding;
     margin-bottom: 0px
 }
 
