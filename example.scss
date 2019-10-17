@@ -12,14 +12,14 @@ body {
 
 article {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
-@mixin box-shadow ($r:(10px 10px 19px -4px rgba(260, 260, 260, 0.75))) 
+@mixin box-shadow ($s:(10px 10px 19px -4px rgba(260, 260, 260, 0.75))) 
 {
-    -webkit-box-shadow: $r;
-    -moz-box-shadow: $r;
-    box-shadow: $r;
+    -webkit-box-shadow: $s;
+    -moz-box-shadow: $s;
+    box-shadow: $s;
 }
 article section {
     @include box-shadow;
@@ -85,6 +85,7 @@ h6 {
 
 
 .message {
+      
     border: 1px solid #ccc;
     padding: 10px;
     color: #2748B3;
